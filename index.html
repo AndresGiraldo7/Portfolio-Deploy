@@ -630,7 +630,8 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form id ="form" class ="form" action="https://formspree.io/f/xnqwnnbv" method="POST">
+           <!--Action con formspre  action="https://formspree.io/f/xnqwnnbv"-->
+            <form id ="form" class ="form"  method="POST">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Nombre</label>
@@ -652,10 +653,16 @@
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
             
-              <div class="text-center"><br><button type="submit"  class="btn btn-primary">Enviar Mensaje</button></div>
+              <div class="text-center"><br><button onclick="Alerta()"  class="btn btn-primary">Enviar Mensaje</button></div>
               <br>
               <br>
               <br>
+              <script>
+                function Alerta() {  
+                alert("¡Hi!..., Dear customers, I am sorry for the inconveniences, I have had security problems, please write directly to the contact email 'and.th420@gmail.com', thanks for understanding....");
+              } 
+
+              </script>
               
               <div style="margin-left:190px" >
               &nbsp;
